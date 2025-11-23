@@ -1,10 +1,9 @@
-const Game = () => {
+import Player from "../../game/player/Player";
+
+export default function Game() {
   return (
-    <div style={{ color: "white", padding: 20 }}>
-      <h1>Game Page Placeholder</h1>
-      <p>The game engine will be added here.</p>
+    <div className="game-screen">
+      <Player />
     </div>
   );
-};
-
-export default Game;
+}
